@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { OlaComponent } from './ola/ola.component';
+import { DestroyComponent } from './destroy/destroy.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    OlaComponent
+    OlaComponent,
+    DestroyComponent
   ],
   imports: [
     BrowserModule
